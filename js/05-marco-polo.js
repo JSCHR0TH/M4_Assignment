@@ -13,7 +13,7 @@ You will need to take advantage of the modulus operator to accomplish this task.
 */
 
 
-for (i = 1 ; i <= 100 ; i++) {
+for (let i = 1 ; i <= 100 ; i++) {
     if (i % 3 === 0 && i % 5 === 0 ) {
         console.log ("Marco! Polo!")
     } else if (i % 3 === 0) {

@@ -16,7 +16,7 @@ Write a loop that displays the following triangle within a console window:
 
 let display = "#"
 
-for (i = 1; i <= 7; i++) {
+for (let i = 1; i <= 7; i++) {
     if (i===1) {
         console.log (display)
     } else {
